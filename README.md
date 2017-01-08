@@ -7,10 +7,13 @@ Codeigniter Menu Library
     OR
     add this line to your controller.
 
+    ```php
     $this->load->library('Menu');
+    ```
 
 3.  Generate menu on frontend
 
+    ```php
     <?php
     $attr = array(
         'table_name'          => 'ci_menu',
@@ -26,3 +29,4 @@ Codeigniter Menu Library
     );
     echo $this->menu->generateFrontendMenu($attr);
     ?>    
+    ```
