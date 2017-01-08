@@ -34,7 +34,10 @@ Codeigniter Menu Library
 
     Note : It will auto create a ci_menu on your database. And add some dumy data on it.
 
-# Table Structure
+# Table Structure :
+
+```php
 --------------------------------------------------------------------------------------------
 + ID      page_id     menu_cat_id     menu_cat_name   menu_name   menu_parent     menu_url +
 --------------------------------------------------------------------------------------------
+```
