@@ -11,7 +11,7 @@ Codeigniter Menu Library
     $this->load->library('Menu');
     ```
 
-3.  Generate menu on frontend
+3.  Generate or call menu on frontend view HTML page
 
     ```php
     <?php
@@ -30,3 +30,11 @@ Codeigniter Menu Library
     echo $this->menu->generateFrontendMenu($attr);
     ?>    
     ```
+
+
+    Note : It will auto create a ci_menu on your database. And add some dumy data on it.
+
+# Table Structure
+--------------------------------------------------------------------------------------------
++ ID      page_id     menu_cat_id     menu_cat_name   menu_name   menu_parent     menu_url +
+--------------------------------------------------------------------------------------------
